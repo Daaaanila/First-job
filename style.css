@@ -1,0 +1,194 @@
+* {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	line-height: 1.6em;
+}
+
+body {
+	font-family: Georgia, 'Times New Roman', Times, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.6em;
+	background: #f1f1f1;
+	color: #0f141e;
+}
+
+@media (max-width: 400px) {
+	.info_text {
+		display: block;
+		word-break: break-all;
+		text-align: center;
+	}
+	.hobby {
+		min-width: 150px;
+		margin-top: 100px;
+	}
+}
+
+.info_me {
+	display: flex;
+	margin-top: 40px;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid #888;
+}
+
+textarea {
+	border: none;
+	border-bottom: 1px solid #888;
+	max-height: 400px;
+}
+
+.info_text p {
+	font-weight: bold;
+	font-style: italic;
+}
+
+.spis {
+	list-style: none;
+}
+
+.spis :nth-child(even):hover {
+	transition: all .4s;
+	box-shadow: 4px 4px 10px red;
+	border-radius: 10px;
+	max-width: 130px;
+}
+
+.input-form {
+	display: flex;
+	margin-right: 10px;
+}
+
+.inputs {
+	padding-right: 10px;
+	background-color: #fffefe00;
+}
+
+label {
+	color: #727272d5
+}
+
+#email {
+	background: #fffefe00;;
+}
+
+#name {
+	background: #fffefe00;
+}
+
+#ta {
+	background: #fffefe00;
+	display: inline-block;
+}
+
+.spis li {
+	padding-left: 10px;
+}
+
+.spis :nth-child(odd):hover {
+	transition: all .4s;
+	box-shadow: 4px 4px 10px green;
+	border-radius: 10px;
+	max-width: 130px;
+}
+
+.info_text h1 {
+	margin: 20px;
+}
+
+.info_text h4 {
+	margin-top: 20px;
+}
+
+.all_info {
+	max-width: 900px;
+	margin: auto;
+}
+
+
+/* Links */
+a {
+	color:#333;
+}
+
+.links {
+	margin-bottom: 30px;
+	position: absolute;
+}
+
+.link {	
+	text-decoration: none;
+	color: #888;
+	cursor: pointer;
+
+}
+
+.link:visited {
+	color: crimson;
+}
+
+.link:active {
+	color:rgb(10, 12, 133);
+	opacity: .4;
+}
+
+.link:hover {
+	transition: all .4s;
+	font-size: 18px;
+	color: hwb(246 42% 0%);
+	opacity: 1;
+}
+
+/* Table */
+.tb {
+	border: 2px solid aquamarine;
+	border-radius: 10px;
+	background-color: aquamarine;
+}
+
+.hobby {
+	width: 23%;
+	display: block;
+	border: 2px solid bisque;
+	border-radius: 15px;
+	margin-bottom: 20px;
+	max-height: 300px;
+	min-width: 150px;
+	background-color: bisque;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+/* Image */
+.imgs {
+	border-radius: 18px;
+	box-shadow: 4px 4px 14px rgb(63, 63, 83);
+	margin-bottom: 30px;
+	max-width: 300px;
+	max-height: 300px;
+	margin-right: 40px;
+}
+
+.btn {
+	size: 17px;
+	font-size: 15px;
+	font-family: inherit;
+	cursor: pointer;
+	color:rgb(255, 0, 0);
+	background: rgb(195, 132, 255);
+	transition: all .2s;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 4px 4px 15px #888;
+	margin-bottom: 40px;
+}
+
+.btn:hover {
+	color:rgb(29, 255, 131);
+	background: rgb(10, 12, 133); 
+	font-size: 20px;
+}
